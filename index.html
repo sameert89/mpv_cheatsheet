@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MPV Cheat Sheet</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  h1 {
+    text-align: center;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .command {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  .command:last-child {
+    border-bottom: none;
+  }
+  .key {
+    font-weight: bold;
+    color: #007bff;
+  }
+  @media (max-width: 600px) {
+    .command {
+      flex-direction: column;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>MPV Cheat Sheet</h1>
+  <div class="section">
+    <h2>Playback Controls</h2>
+    <div class="command"><span class="key">Space</span><span>Toggle Play/Pause</span></div>
+    <div class="command"><span class="key">Left/Right Arrow</span><span>Seek -5/+5 seconds</span></div>
+    <div class="command"><span class="key">Up/Down Arrow</span><span>Seek -60/+60 seconds</span></div>
+    <div class="command"><span class="key">[ / ]</span><span>Decrease/Increase Playback Speed</span></div>
+    <div class="command"><span class="key">m</span><span>Toggle Mute</span></div>
+  </div>
+  <div class="section">
+    <h2>Volume and Audio</h2>
+    <div class="command"><span class="key">9 / 0</span><span>Decrease/Increase Volume</span></div>
+    <div class="command"><span class="key">Ctrl + [+] / Ctrl + [-]</span><span>Adjust Audio Delay</span></div>
+    <div class="command"><span class="key">ctrl + [+] / ctrl + [-]</span><span>Adjust Audio Sync</span></div>
+    <div class="command"><span class="key">#</span><span>Switch Audio Track</span></div>
+  </div>
+  <div class="section">
+    <h2>Subtitles and Video</h2>
+    <div class="command"><span class="key">v</span><span>Toggle Subtitle Visibility</span></div>
+    <div class="command"><span class="key">j / J</span><span>Next/Previous Subtitle Track</span></div>
+    <div class="command"><span class="key">z / Z</span><span>Subtitle Delay (Decrease/Increase)</span></div>
+    <div class="command"><span class="key">Shift+g / Shift+f</span><span>Subtitle Scale (Increase/Decrease)</span></div>
+    <div class="command"><span class="key">Alt + [Arrow Keys]</span><span>Move Video (Pan)</span></div>
+    <div class="command"><span class="key">_</span><span>Switch Video Track</span></div>
+    <div class="command"><span class="key">Alt + [+/-]</span><span>Zoom In/Out</span></div>
+  </div>
+  <!-- Playlist and Chapters -->
+  <div class="section">
+    <h2>Playlist and Chapters</h2>
+    <div class="command"><span class="key">> / <</span><span>Next/Previous File in Playlist</span></div>
+    <div class="command"><span class="key">PGUP / PGDWN</span><span>Next/Previous Chapter</span></div>
+  </div>
+  
+  <!-- Miscellaneous -->
+  <div class="section">
+    <h2>Miscellaneous</h2>
+    <div class="command"><span class="key">f</span><span>Toggle Fullscreen</span></div>
+    <div class="command"><span class="key">T</span><span>Toggle Stay on Top</span></div>
+    <div class="command"><span class="key">q</span><span>Quit</span></div>
+    <div class="command"><span class="key">s / S</span><span>Screenshot / Screenshot without Subtitles</span></div>
+    <div class="command"><span class="key">Ctrl+s</span><span>Screenshot of Window</span></div>
+  </div>
+      <footer style="text-align:center">Made with 💖 by sameert89</footer>
+</div></body>
+</html>
